@@ -48,11 +48,13 @@ async function loadRepositories() {
     }
 
     repositoryList.replaceChildren(...data.repositories.map(renderRepository));
-    listStatus.textContent = data.repositories.length
-      ? ""
-      : "No starred repositories yet.";
-  } catch (error) {
-    listStatus.textContent = `Could not load repositories: ${error.message}`;
+
+listStatus.textContent = data.repositories.length
+  ? `${data.repositories.length} starred repositories loaded.`
+  : "No starred repositories yet.";
+} catch (error) {
+  listStatus.textContent = `Could not load repositories: ${error.message}`;
+}
   }
 }
 
