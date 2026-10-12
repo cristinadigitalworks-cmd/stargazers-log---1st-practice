@@ -1,0 +1,28 @@
+{
+  "repositories": [
+    {
+      "name": "freeCodeCamp",
+      "owner": "freeCodeCamp",
+      "description": "Learn to code with free courses, projects, and certifications.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 410000,
+      "language": "TypeScript"
+    },
+    {
+      "name": "The Algorithms",
+      "owner": "TheAlgorithms",
+      "description": "Open-source implementations of algorithms in many languages.",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 200000,
+      "language": "Python"
+    },
+    {
+      "name": "30 seconds of code",
+      "owner": "30-seconds",
+      "description": "Short code snippets for everyday development tasks.",
+      "url": "https://github.com/30-seconds/30-seconds-of-code",
+      "stars": 120000,
+      "language": "JavaScript"
+    }
+  ]
+}
